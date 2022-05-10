@@ -5,6 +5,10 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
+        testCustomLinkedList();
+    }
+
+    public static void testCustomLinkedList() {
         CustomLinkedList<String> list = new CustomLinkedList<>();
         list.add("ABC");
         list.add("DEF");
@@ -39,6 +43,5 @@ public class Main {
         for (String text : list) {
             System.out.println(text);
         }
-        LinkedList<String> linkedList = new LinkedList<>();
     }
 }
